@@ -214,4 +214,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Report 
+report.html
+report.json
+
 # End of https://www.gitignore.io/api/ruby,linux,macos,windows,rubymine,visualstudiocode

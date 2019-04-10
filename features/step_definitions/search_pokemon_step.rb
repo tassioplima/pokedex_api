@@ -1,6 +1,7 @@
 
 
   Given("search a pokemon {int}") do |id|
+    @endpoint = CONFIG[base_uri] 
     @get_result = HTTParty.get("http://pokeapi.co/api/v2/pokemon/#{id}")
   end
   
