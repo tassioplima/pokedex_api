@@ -14,93 +14,11 @@
     ],
     "elements": [
       {
-        "keyword": "Background",
-        "name": "Api connect",
-        "description": "",
-        "line": 6,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "api is connected",
-            "line": 7,
-            "match": {
-              "location": "features/specifications/search_pokemon.feature:7"
-            },
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api;search-wild-pokemon",
-        "keyword": "Scenario",
-        "name": "Search wild pokemon",
-        "description": "",
-        "line": 10,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@search",
-            "line": 3
-          },
-          {
-            "name": "@pokemon_search",
-            "line": 9
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "search a pokemon 1",
-            "line": 11,
-            "match": {
-              "location": "features/specifications/search_pokemon.feature:11"
-            },
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "wild pokemon appeared!",
-            "line": 12,
-            "match": {
-              "location": "features/specifications/search_pokemon.feature:12"
-            },
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "keyword": "Background",
-        "name": "Api connect",
-        "description": "",
-        "line": 6,
-        "type": "background",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "api is connected",
-            "line": 7,
-            "match": {
-              "location": "features/specifications/search_pokemon.feature:7"
-            },
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
         "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api;search-new-pokemon",
         "keyword": "Scenario",
         "name": "Search new pokemon",
         "description": "",
-        "line": 15,
+        "line": 12,
         "type": "scenario",
         "tags": [
           {
@@ -109,30 +27,32 @@
           },
           {
             "name": "@incorrect_search",
-            "line": 14
+            "line": 11
           }
         ],
         "steps": [
           {
-            "keyword": "When ",
+            "keyword": "Given ",
             "name": "search a pokemon \"Bulbasaur\"",
-            "line": 16,
+            "line": 13,
             "match": {
-              "location": "features/specifications/search_pokemon.feature:16"
+              "location": "features/step_definitions/search_pokemon_step.rb:11"
             },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 85616340500
             }
           },
           {
             "keyword": "Then ",
             "name": "wild pokemon disappeared!",
-            "line": 17,
+            "line": 14,
             "match": {
-              "location": "features/specifications/search_pokemon.feature:17"
+              "location": "features/step_definitions/search_pokemon_step.rb:15"
             },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1630100
             }
           }
         ]
