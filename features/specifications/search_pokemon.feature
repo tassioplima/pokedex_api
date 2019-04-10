@@ -12,3 +12,8 @@ Feature: Search new Pokemon and old Pokemons to my Pokedex api
     Scenario: Search new pokemon
         Given search a pokemon "Bulbasaur"
         Then wild pokemon disappeared!
+
+    @pokemon_inexist
+    Scenario: Search all pokemons
+        Given search a pokemon ""
+        Then all wild pokemon appeared!

@@ -58,6 +58,7 @@ GEM
     thor (0.20.3)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES

@@ -1,5 +1,241 @@
 [
   {
+    "uri": "features/specifications/search_location.feature",
+    "id": "search-new-location-to-capture-pokemons",
+    "keyword": "Feature",
+    "name": "Search new Location to capture Pokemons",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@location",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "search-new-location-to-capture-pokemons;search-location-pokemon-name",
+        "keyword": "Scenario",
+        "name": "Search location pokemon name",
+        "description": "",
+        "line": 7,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@location",
+            "line": 3
+          },
+          {
+            "name": "@location_search",
+            "line": 6
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search a location \"kanto\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086604000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "new pokemon location appeared!",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1843000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-new-location-to-capture-pokemons;search-location-pokemon-name",
+        "keyword": "Scenario",
+        "name": "Search location pokemon name",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@location",
+            "line": 3
+          },
+          {
+            "name": "@location_search_Kanto",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search a location \"Kanto\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1325973000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "new pokemon location desappeared!",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-new-location-to-capture-pokemons;search-location-pokemon-id",
+        "keyword": "Scenario",
+        "name": "Search location pokemon id",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@location",
+            "line": 3
+          },
+          {
+            "name": "@location_search_int",
+            "line": 16
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search a location 1",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 793810000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "new pokemon location appeared by number!",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-new-location-to-capture-pokemons;search-new-pokemon",
+        "keyword": "Scenario",
+        "name": "Search new pokemon",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@location",
+            "line": 3
+          },
+          {
+            "name": "@incorrect_location",
+            "line": 21
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search a location \"XXXX\"",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1222369000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "new pokemon location desappeared!",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-new-location-to-capture-pokemons;search-all-pokemons",
+        "keyword": "Scenario",
+        "name": "Search all pokemons",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@location",
+            "line": 3
+          },
+          {
+            "name": "@location_all",
+            "line": 26
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search all location \"\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 842024000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "all new location appeared!",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "uri": "features/specifications/search_pokemon.feature",
     "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api",
     "keyword": "Feature",
@@ -13,6 +249,50 @@
       }
     ],
     "elements": [
+      {
+        "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api;search-wild-pokemon",
+        "keyword": "Scenario",
+        "name": "Search wild pokemon",
+        "description": "",
+        "line": 7,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@search",
+            "line": 3
+          },
+          {
+            "name": "@pokemon_search",
+            "line": 6
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search a pokemon 1",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1018308000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "wild pokemon appeared!",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000
+            }
+          }
+        ]
+      },
       {
         "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api;search-new-pokemon",
         "keyword": "Scenario",
@@ -40,7 +320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85616340500
+              "duration": 1023826000
             }
           },
           {
@@ -52,7 +332,51 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1630100
+              "duration": 77000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api;search-all-pokemons",
+        "keyword": "Scenario",
+        "name": "Search all pokemons",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@search",
+            "line": 3
+          },
+          {
+            "name": "@pokemon_inexist",
+            "line": 16
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "search a pokemon \"\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 936887000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "all wild pokemon appeared!",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000
             }
           }
         ]
