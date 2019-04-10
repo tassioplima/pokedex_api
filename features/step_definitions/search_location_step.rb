@@ -1,5 +1,3 @@
-
-@@config = CONFIG[base_uri]
 #----------Given----------#
 
 Given("search a location {string}") do |location|
