@@ -1,17 +1,32 @@
 
+  #----------Given----------#
 
-  Given("search a pokemon {int}") do |id|
-    @get_result = HTTParty.get("http://pokeapi.co/api/v2/pokemon/#{id}")
+  Given("access endpoint pokemon") do
+    @services = Services.new()
+  end
+
+  Given("search a pokemon {int}") do |pokemon|
+    @pokemon_service = @services.get_location(pokemon)
   end
   
+  #----------When----------#
+  
+  When("search a pokemon {string}") do |pokemon|
+    @pokemon_service = @services.get_location(pokemon)
+  end
+
+  #----------Then----------#
+
   Then("wild pokemon appeared!") do
-    expect(@get_result.code).to eq 200
+    expect(@pokemon_service.code).to eq 200
+    expect(@pokemon_service).to match_json_schema("pokemon_schema")
   end
-  
-  When("search a pokemon {string}") do |string|
-    @get_result = HTTParty.get("http://pokeapi.co/api/v2/pokemon/#{string}")
-  end
-  
+
   Then("wild pokemon disappeared!") do
-    expect(@get_result.code).to eq 404
+    expect(@pokemon_service.code).to eq 404
+  end
+
+  Then("all wild pokemon appeared!") do
+    expect(@pokemon_service.code).to eq 200
+    expect(@pokemon_service).to match_json_schema("pokemon_schema")
   end
