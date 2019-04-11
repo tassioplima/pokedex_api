@@ -19,6 +19,7 @@
 
   Then("wild pokemon appeared!") do
     expect(@pokemon_service.code).to eq 200
+    expect(@pokemon_service).to match_json_schema("pokemon_schema")
   end
 
   Then("wild pokemon disappeared!") do
@@ -27,4 +28,5 @@
 
   Then("all wild pokemon appeared!") do
     expect(@pokemon_service.code).to eq 200
+    expect(@pokemon_service).to match_json_schema("pokemon_schema")
   end

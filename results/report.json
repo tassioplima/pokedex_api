@@ -29,7 +29,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29400
+              "duration": 30400
             }
           }
         ]
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1255402300
+              "duration": 1210225700
             }
           },
           {
@@ -73,7 +73,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1611500
+              "duration": 5450300
             }
           }
         ]
@@ -94,7 +94,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20700
+              "duration": 20200
             }
           }
         ]
@@ -126,7 +126,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 190438600
+              "duration": 132911600
             }
           },
           {
@@ -134,11 +134,11 @@
             "name": "new pokemon location desappeared!",
             "line": 17,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:28"
+              "location": "features/step_definitions/search_location_step.rb:29"
             },
             "result": {
               "status": "passed",
-              "duration": 68400
+              "duration": 71200
             }
           }
         ]
@@ -159,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16400
+              "duration": 17600
             }
           }
         ]
@@ -191,7 +191,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 206045400
+              "duration": 188542300
             }
           },
           {
@@ -199,11 +199,11 @@
             "name": "new pokemon location appeared by number!",
             "line": 22,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:32"
+              "location": "features/step_definitions/search_location_step.rb:33"
             },
             "result": {
               "status": "passed",
-              "duration": 55100
+              "duration": 3639900
             }
           }
         ]
@@ -224,7 +224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17300
+              "duration": 22200
             }
           }
         ]
@@ -256,7 +256,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152339800
+              "duration": 145750300
             }
           },
           {
@@ -264,11 +264,11 @@
             "name": "new pokemon location desappeared!",
             "line": 27,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:28"
+              "location": "features/step_definitions/search_location_step.rb:29"
             },
             "result": {
               "status": "passed",
-              "duration": 55000
+              "duration": 44700
             }
           }
         ]
@@ -289,7 +289,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18100
+              "duration": 19100
             }
           }
         ]
@@ -321,7 +321,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 122595100
+              "duration": 263587000
             }
           },
           {
@@ -329,11 +329,11 @@
             "name": "all new location appeared!",
             "line": 32,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:36"
+              "location": "features/step_definitions/search_location_step.rb:38"
             },
             "result": {
               "status": "passed",
-              "duration": 37000
+              "duration": 3965400
             }
           }
         ]
@@ -370,7 +370,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21600
+              "duration": 21300
             }
           }
         ]
@@ -402,7 +402,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 159277900
+              "duration": 147937800
             }
           },
           {
@@ -414,7 +414,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70300
+              "duration": 5544400
             }
           }
         ]
@@ -435,7 +435,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33400
+              "duration": 19600
             }
           }
         ]
@@ -467,7 +467,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 157066900
+              "duration": 235834900
             }
           },
           {
@@ -475,11 +475,11 @@
             "name": "wild pokemon disappeared!",
             "line": 17,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:24"
+              "location": "features/step_definitions/search_pokemon_step.rb:25"
             },
             "result": {
               "status": "passed",
-              "duration": 35500
+              "duration": 71600
             }
           }
         ]
@@ -500,7 +500,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15300
+              "duration": 19400
             }
           }
         ]
@@ -532,7 +532,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 176723000
+              "duration": 163011000
             }
           },
           {
@@ -540,11 +540,11 @@
             "name": "all wild pokemon appeared!",
             "line": 22,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:28"
+              "location": "features/step_definitions/search_pokemon_step.rb:29"
             },
             "result": {
               "status": "passed",
-              "duration": 98500
+              "duration": 2923100
             }
           }
         ]
