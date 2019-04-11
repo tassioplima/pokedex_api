@@ -1,0 +1,16 @@
+{
+    "description": "Location",
+    "type": "object",
+    "properties": {
+        "abilities": {
+            "type": "array"
+        },
+        "base_experience": {
+            "type": "number",
+            "minimum": 0
+        },
+        "location_area_encounters": {
+            "type": "string"
+        }
+    }
+  }

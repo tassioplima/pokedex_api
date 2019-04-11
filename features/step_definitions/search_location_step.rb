@@ -23,6 +23,7 @@ end
 
 Then("new pokemon location appeared!") do
   expect(@location_service.code).to eq 200
+  expect(@location_service).to match_json_schema("location_schema")
 end
 
 Then("new pokemon location desappeared!") do
@@ -31,8 +32,10 @@ end
 
 Then("new pokemon location appeared by number!") do
   expect(@location_service.code).to eq 200
+  expect(@location_service).to match_json_schema("location_schema")
 end
 
 Then("all new location appeared!") do
   expect(@location_service.code).to eq 200
+  expect(@location_service).to match_json_schema("location_schema")
 end
