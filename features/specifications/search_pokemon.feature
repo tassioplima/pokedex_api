@@ -3,17 +3,20 @@
 @search
 Feature: Search new Pokemon and old Pokemons to my Pokedex api
 
+    Background: Access endpoint 
+        Given access endpoint pokemon
+
     @pokemon_search
     Scenario: Search wild pokemon
-        Given search a pokemon 1
+        When search a pokemon 1
         Then wild pokemon appeared!
 
     @incorrect_search
     Scenario: Search new pokemon
-        Given search a pokemon "Bulbasaur"
+        When search a pokemon "Bulbasaur"
         Then wild pokemon disappeared!
 
     @pokemon_inexist
     Scenario: Search all pokemons
-        Given search a pokemon ""
+        When search a pokemon ""
         Then all wild pokemon appeared!

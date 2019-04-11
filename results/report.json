@@ -14,45 +14,22 @@
     ],
     "elements": [
       {
-        "id": "search-new-location-to-capture-pokemons;search-location-pokemon-name",
-        "keyword": "Scenario",
-        "name": "Search location pokemon name",
+        "keyword": "Background",
+        "name": "Access endpoint",
         "description": "",
-        "line": 7,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@location",
-            "line": 3
-          },
-          {
-            "name": "@location_search",
-            "line": 6
-          }
-        ],
+        "line": 6,
+        "type": "background",
         "steps": [
           {
             "keyword": "Given ",
-            "name": "search a location \"kanto\"",
-            "line": 8,
+            "name": "access endpoint location",
+            "line": 7,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:3"
+              "location": "features/step_definitions/search_location_step.rb:4"
             },
             "result": {
               "status": "passed",
-              "duration": 1086604000
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "new pokemon location appeared!",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/search_location_step.rb:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1843000
+              "duration": 29400
             }
           }
         ]
@@ -62,7 +39,72 @@
         "keyword": "Scenario",
         "name": "Search location pokemon name",
         "description": "",
-        "line": 12,
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@location",
+            "line": 3
+          },
+          {
+            "name": "@location_search",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "search a location \"kanto\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1255402300
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "new pokemon location appeared!",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1611500
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint location",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20700
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-new-location-to-capture-pokemons;search-location-pokemon-name",
+        "keyword": "Scenario",
+        "name": "Search location pokemon name",
+        "description": "",
+        "line": 15,
         "type": "scenario",
         "tags": [
           {
@@ -71,32 +113,53 @@
           },
           {
             "name": "@location_search_Kanto",
-            "line": 11
+            "line": 14
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search a location \"Kanto\"",
-            "line": 13,
+            "line": 16,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:3"
+              "location": "features/step_definitions/search_location_step.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1325973000
+              "duration": 190438600
             }
           },
           {
             "keyword": "Then ",
             "name": "new pokemon location desappeared!",
-            "line": 14,
+            "line": 17,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:17"
+              "location": "features/step_definitions/search_location_step.rb:28"
             },
             "result": {
               "status": "passed",
-              "duration": 69000
+              "duration": 68400
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint location",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16400
             }
           }
         ]
@@ -106,7 +169,7 @@
         "keyword": "Scenario",
         "name": "Search location pokemon id",
         "description": "",
-        "line": 17,
+        "line": 20,
         "type": "scenario",
         "tags": [
           {
@@ -115,32 +178,53 @@
           },
           {
             "name": "@location_search_int",
-            "line": 16
+            "line": 19
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search a location 1",
-            "line": 18,
+            "line": 21,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:7"
+              "location": "features/step_definitions/search_location_step.rb:14"
             },
             "result": {
               "status": "passed",
-              "duration": 793810000
+              "duration": 206045400
             }
           },
           {
             "keyword": "Then ",
             "name": "new pokemon location appeared by number!",
-            "line": 19,
+            "line": 22,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:25"
+              "location": "features/step_definitions/search_location_step.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 48000
+              "duration": 55100
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint location",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17300
             }
           }
         ]
@@ -150,7 +234,7 @@
         "keyword": "Scenario",
         "name": "Search new pokemon",
         "description": "",
-        "line": 22,
+        "line": 25,
         "type": "scenario",
         "tags": [
           {
@@ -159,32 +243,53 @@
           },
           {
             "name": "@incorrect_location",
-            "line": 21
+            "line": 24
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search a location \"XXXX\"",
-            "line": 23,
+            "line": 26,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:3"
+              "location": "features/step_definitions/search_location_step.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1222369000
+              "duration": 152339800
             }
           },
           {
             "keyword": "Then ",
             "name": "new pokemon location desappeared!",
-            "line": 24,
+            "line": 27,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:17"
+              "location": "features/step_definitions/search_location_step.rb:28"
             },
             "result": {
               "status": "passed",
-              "duration": 73000
+              "duration": 55000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint location",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_location_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18100
             }
           }
         ]
@@ -194,7 +299,7 @@
         "keyword": "Scenario",
         "name": "Search all pokemons",
         "description": "",
-        "line": 27,
+        "line": 30,
         "type": "scenario",
         "tags": [
           {
@@ -203,32 +308,32 @@
           },
           {
             "name": "@location_all",
-            "line": 26
+            "line": 29
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search all location \"\"",
-            "line": 28,
+            "line": 31,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:11"
+              "location": "features/step_definitions/search_location_step.rb:18"
             },
             "result": {
               "status": "passed",
-              "duration": 842024000
+              "duration": 122595100
             }
           },
           {
             "keyword": "Then ",
             "name": "all new location appeared!",
-            "line": 29,
+            "line": 32,
             "match": {
-              "location": "features/step_definitions/search_location_step.rb:29"
+              "location": "features/step_definitions/search_location_step.rb:36"
             },
             "result": {
               "status": "passed",
-              "duration": 77000
+              "duration": 37000
             }
           }
         ]
@@ -250,11 +355,32 @@
     ],
     "elements": [
       {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint pokemon",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21600
+            }
+          }
+        ]
+      },
+      {
         "id": "search-new-pokemon-and-old-pokemons-to-my-pokedex-api;search-wild-pokemon",
         "keyword": "Scenario",
         "name": "Search wild pokemon",
         "description": "",
-        "line": 7,
+        "line": 10,
         "type": "scenario",
         "tags": [
           {
@@ -263,32 +389,53 @@
           },
           {
             "name": "@pokemon_search",
-            "line": 6
+            "line": 9
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search a pokemon 1",
-            "line": 8,
+            "line": 11,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:3"
+              "location": "features/step_definitions/search_pokemon_step.rb:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1018308000
+              "duration": 159277900
             }
           },
           {
             "keyword": "Then ",
             "name": "wild pokemon appeared!",
-            "line": 9,
+            "line": 12,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:7"
+              "location": "features/step_definitions/search_pokemon_step.rb:20"
             },
             "result": {
               "status": "passed",
-              "duration": 73000
+              "duration": 70300
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint pokemon",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33400
             }
           }
         ]
@@ -298,7 +445,7 @@
         "keyword": "Scenario",
         "name": "Search new pokemon",
         "description": "",
-        "line": 12,
+        "line": 15,
         "type": "scenario",
         "tags": [
           {
@@ -307,32 +454,53 @@
           },
           {
             "name": "@incorrect_search",
-            "line": 11
+            "line": 14
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search a pokemon \"Bulbasaur\"",
-            "line": 13,
+            "line": 16,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:11"
+              "location": "features/step_definitions/search_pokemon_step.rb:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1023826000
+              "duration": 157066900
             }
           },
           {
             "keyword": "Then ",
             "name": "wild pokemon disappeared!",
-            "line": 14,
+            "line": 17,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:15"
+              "location": "features/step_definitions/search_pokemon_step.rb:24"
             },
             "result": {
               "status": "passed",
-              "duration": 77000
+              "duration": 35500
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "Access endpoint",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "access endpoint pokemon",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/search_pokemon_step.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15300
             }
           }
         ]
@@ -342,7 +510,7 @@
         "keyword": "Scenario",
         "name": "Search all pokemons",
         "description": "",
-        "line": 17,
+        "line": 20,
         "type": "scenario",
         "tags": [
           {
@@ -351,32 +519,32 @@
           },
           {
             "name": "@pokemon_inexist",
-            "line": 16
+            "line": 19
           }
         ],
         "steps": [
           {
-            "keyword": "Given ",
+            "keyword": "When ",
             "name": "search a pokemon \"\"",
-            "line": 18,
+            "line": 21,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:11"
+              "location": "features/step_definitions/search_pokemon_step.rb:14"
             },
             "result": {
               "status": "passed",
-              "duration": 936887000
+              "duration": 176723000
             }
           },
           {
             "keyword": "Then ",
             "name": "all wild pokemon appeared!",
-            "line": 19,
+            "line": 22,
             "match": {
-              "location": "features/step_definitions/search_pokemon_step.rb:19"
+              "location": "features/step_definitions/search_pokemon_step.rb:28"
             },
             "result": {
               "status": "passed",
-              "duration": 90000
+              "duration": 98500
             }
           }
         ]
