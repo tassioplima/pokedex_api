@@ -7,7 +7,7 @@ class Services
     end
 
     def get_pokemon(pokemon)
-        self.class.get("/location/#{location}")
+        self.class.get("/pokemon/#{pokemon}")
     end
 
 end
