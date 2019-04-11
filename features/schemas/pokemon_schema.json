@@ -1,5 +1,5 @@
 {
-    "description": "Location",
+    "description": "Pokemon",
     "type": "object",
     "properties": {
         "abilities": {
