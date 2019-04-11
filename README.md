@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/tassioplima/pokedex_api.svg?style=svg)](https://circleci.com/gh/tassioplima/pokedex_api)
 
 # pokedex_api
-Test pokédex api, httparty framework automation, using rspec, and cucumber.
+Test pokédex api with httparty framework automation, using rspec and json matcher to make assertion and contract test, and cucumber.
 
 ### Pre-requirements
 
@@ -20,3 +20,7 @@ Execute Cucumber test with:
 Or unit tags/test 
 
 ```cucumber -t @tags```
+
+run customize
+
+```cucumber -t @tags -p ambient```
