@@ -5,4 +5,5 @@ gem 'json_matchers'
 gem 'httparty'
 gem 'cucumber'
 gem 'rspec'
+gem 'rake'
 
