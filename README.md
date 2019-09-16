@@ -1,6 +1,6 @@
 
 [![CircleCI](https://circleci.com/gh/tassioplima/pokedex_api.svg?style=svg)](https://circleci.com/gh/tassioplima/pokedex_api)
-[![Actions Status](https://github.com/tassioplima/pokedex_api/actions)](https://github.com/tassioplima/pokedex_api/actions)
+[![Actions Status](https://github.com/tassioplima/pokedex_api/actions/badge.svg)](https://github.com/tassioplima/pokedex_api/actions)
 
 # pokedex_api
 Test pokédex api with httparty framework automation, using rspec and json matcher to make assertion and contract test, using circle ci to make Continuous Testing and cucumber.
